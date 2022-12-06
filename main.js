@@ -50,3 +50,44 @@
 //     console.log(message)
 
 // task 5
+// const countries = {
+//    китай: { name: 'Китай', price: 100 },
+//    чили: { name: 'Чили', price: 250 },
+//    австралия: { name: 'Австралия', price: 107 },
+//    индия: { name: 'Индия', price: 80 },
+//    ямайка: { name: 'Ямайка', price: 120 },
+//  };
+//  let alert;
+//  const countryDelivery = prompt('Назвіть країну в котру потрібно зробити доставку');
+//  let countryKey = countryDelivery.toLowerCase();
+//  const { name, price } = countries[countryKey] || {};
+
+//  if (name) {
+//    alert = `Доставка в ${name} будет стоить ${price} кредитов`;
+//  } else if (countryKey === null) {
+//    alert = `Erorr`;
+//  }else {
+//    alert = 'В вашей стране доставка не доступна';
+//  }
+//  console.log(alert)
+
+// task 6
+// let alert;
+// let total = 0;
+// let input = prompt('Нажміть Cancel, або введіть число');
+// total += Number(input);
+// do {
+//    // input = prompt('Нажміть Cancel, або введіть число');
+//    if (Number.isNaN(input = prompt('Нажміть Cancel, або введіть число'))) {
+//          alert = 'Было введено не число, попробуйте еще раз'
+//          console.log(alert)
+//       } else {
+//          total += Number(input);
+//       }
+// } while (input !== null) {
+//    alert = `Общая сумма чисел равна ${total}`
+// }
+// console.log(alert)
+
+
+
